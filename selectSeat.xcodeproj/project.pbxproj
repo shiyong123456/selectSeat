@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A518A4FC2004B76700EFBF5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A518A4FB2004B76700EFBF5B /* AppDelegate.m */; };
+		A518A4FF2004B76700EFBF5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A518A4FE2004B76700EFBF5B /* ViewController.m */; };
+		A518A5022004B76700EFBF5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A518A5002004B76700EFBF5B /* Main.storyboard */; };
+		A518A5052004B76700EFBF5B /* selectSeat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A518A5032004B76700EFBF5B /* selectSeat.xcdatamodeld */; };
+		A518A5072004B76700EFBF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A518A5062004B76700EFBF5B /* Assets.xcassets */; };
+		A518A50A2004B76700EFBF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A518A5082004B76700EFBF5B /* LaunchScreen.storyboard */; };
+		A518A50D2004B76700EFBF5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A518A50C2004B76700EFBF5B /* main.m */; };
+		A518A5172004B76700EFBF5B /* selectSeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A518A5162004B76700EFBF5B /* selectSeatTests.m */; };
+		A518A5222004B76700EFBF5B /* selectSeatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A518A5212004B76700EFBF5B /* selectSeatUITests.m */; };
+		A518A5312004BA5600EFBF5B /* SYselectSeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A518A5302004BA5600EFBF5B /* SYselectSeatViewController.m */; };
+		A518A5372005A3E800EFBF5B /* selectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A518A5362005A3E800EFBF5B /* selectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A518A5132004B76700EFBF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A518A4EF2004B76700EFBF5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A518A4F62004B76700EFBF5B;
+			remoteInfo = selectSeat;
+		};
+		A518A51E2004B76700EFBF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A518A4EF2004B76700EFBF5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A518A4F62004B76700EFBF5B;
+			remoteInfo = selectSeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A518A4F72004B76700EFBF5B /* selectSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selectSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A518A4FA2004B76700EFBF5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A518A4FB2004B76700EFBF5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A518A4FD2004B76700EFBF5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A518A4FE2004B76700EFBF5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A518A5012004B76700EFBF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A518A5042004B76700EFBF5B /* selectSeat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = selectSeat.xcdatamodel; sourceTree = "<group>"; };
+		A518A5062004B76700EFBF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A518A5092004B76700EFBF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A518A50B2004B76700EFBF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A518A50C2004B76700EFBF5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A518A5122004B76700EFBF5B /* selectSeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selectSeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A518A5162004B76700EFBF5B /* selectSeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectSeatTests.m; sourceTree = "<group>"; };
+		A518A5182004B76700EFBF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A518A51D2004B76700EFBF5B /* selectSeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selectSeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A518A5212004B76700EFBF5B /* selectSeatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectSeatUITests.m; sourceTree = "<group>"; };
+		A518A5232004B76700EFBF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A518A52F2004BA5600EFBF5B /* SYselectSeatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYselectSeatViewController.h; sourceTree = "<group>"; };
+		A518A5302004BA5600EFBF5B /* SYselectSeatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYselectSeatViewController.m; sourceTree = "<group>"; };
+		A518A5352005A3E800EFBF5B /* selectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectView.h; sourceTree = "<group>"; };
+		A518A5362005A3E800EFBF5B /* selectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A518A4F42004B76700EFBF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A518A50F2004B76700EFBF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A518A51A2004B76700EFBF5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A518A4EE2004B76700EFBF5B = {
+			isa = PBXGroup;
+			children = (
+				A518A4F92004B76700EFBF5B /* selectSeat */,
+				A518A5152004B76700EFBF5B /* selectSeatTests */,
+				A518A5202004B76700EFBF5B /* selectSeatUITests */,
+				A518A4F82004B76700EFBF5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A518A4F82004B76700EFBF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A518A4F72004B76700EFBF5B /* selectSeat.app */,
+				A518A5122004B76700EFBF5B /* selectSeatTests.xctest */,
+				A518A51D2004B76700EFBF5B /* selectSeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A518A4F92004B76700EFBF5B /* selectSeat */ = {
+			isa = PBXGroup;
+			children = (
+				A518A4FA2004B76700EFBF5B /* AppDelegate.h */,
+				A518A4FB2004B76700EFBF5B /* AppDelegate.m */,
+				A518A4FD2004B76700EFBF5B /* ViewController.h */,
+				A518A4FE2004B76700EFBF5B /* ViewController.m */,
+				A518A52F2004BA5600EFBF5B /* SYselectSeatViewController.h */,
+				A518A5302004BA5600EFBF5B /* SYselectSeatViewController.m */,
+				A518A5352005A3E800EFBF5B /* selectView.h */,
+				A518A5362005A3E800EFBF5B /* selectView.m */,
+				A518A5002004B76700EFBF5B /* Main.storyboard */,
+				A518A5062004B76700EFBF5B /* Assets.xcassets */,
+				A518A5082004B76700EFBF5B /* LaunchScreen.storyboard */,
+				A518A50B2004B76700EFBF5B /* Info.plist */,
+				A518A50C2004B76700EFBF5B /* main.m */,
+				A518A5032004B76700EFBF5B /* selectSeat.xcdatamodeld */,
+			);
+			path = selectSeat;
+			sourceTree = "<group>";
+		};
+		A518A5152004B76700EFBF5B /* selectSeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				A518A5162004B76700EFBF5B /* selectSeatTests.m */,
+				A518A5182004B76700EFBF5B /* Info.plist */,
+			);
+			path = selectSeatTests;
+			sourceTree = "<group>";
+		};
+		A518A5202004B76700EFBF5B /* selectSeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A518A5212004B76700EFBF5B /* selectSeatUITests.m */,
+				A518A5232004B76700EFBF5B /* Info.plist */,
+			);
+			path = selectSeatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A518A4F62004B76700EFBF5B /* selectSeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A518A5262004B76700EFBF5B /* Build configuration list for PBXNativeTarget "selectSeat" */;
+			buildPhases = (
+				A518A4F32004B76700EFBF5B /* Sources */,
+				A518A4F42004B76700EFBF5B /* Frameworks */,
+				A518A4F52004B76700EFBF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = selectSeat;
+			productName = selectSeat;
+			productReference = A518A4F72004B76700EFBF5B /* selectSeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A518A5112004B76700EFBF5B /* selectSeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A518A5292004B76700EFBF5B /* Build configuration list for PBXNativeTarget "selectSeatTests" */;
+			buildPhases = (
+				A518A50E2004B76700EFBF5B /* Sources */,
+				A518A50F2004B76700EFBF5B /* Frameworks */,
+				A518A5102004B76700EFBF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A518A5142004B76700EFBF5B /* PBXTargetDependency */,
+			);
+			name = selectSeatTests;
+			productName = selectSeatTests;
+			productReference = A518A5122004B76700EFBF5B /* selectSeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A518A51C2004B76700EFBF5B /* selectSeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A518A52C2004B76700EFBF5B /* Build configuration list for PBXNativeTarget "selectSeatUITests" */;
+			buildPhases = (
+				A518A5192004B76700EFBF5B /* Sources */,
+				A518A51A2004B76700EFBF5B /* Frameworks */,
+				A518A51B2004B76700EFBF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A518A51F2004B76700EFBF5B /* PBXTargetDependency */,
+			);
+			name = selectSeatUITests;
+			productName = selectSeatUITests;
+			productReference = A518A51D2004B76700EFBF5B /* selectSeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A518A4EF2004B76700EFBF5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SY;
+				TargetAttributes = {
+					A518A4F62004B76700EFBF5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A518A5112004B76700EFBF5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A518A4F62004B76700EFBF5B;
+					};
+					A518A51C2004B76700EFBF5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A518A4F62004B76700EFBF5B;
+					};
+				};
+			};
+			buildConfigurationList = A518A4F22004B76700EFBF5B /* Build configuration list for PBXProject "selectSeat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A518A4EE2004B76700EFBF5B;
+			productRefGroup = A518A4F82004B76700EFBF5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A518A4F62004B76700EFBF5B /* selectSeat */,
+				A518A5112004B76700EFBF5B /* selectSeatTests */,
+				A518A51C2004B76700EFBF5B /* selectSeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A518A4F52004B76700EFBF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A518A50A2004B76700EFBF5B /* LaunchScreen.storyboard in Resources */,
+				A518A5072004B76700EFBF5B /* Assets.xcassets in Resources */,
+				A518A5022004B76700EFBF5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A518A5102004B76700EFBF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A518A51B2004B76700EFBF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A518A4F32004B76700EFBF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A518A5052004B76700EFBF5B /* selectSeat.xcdatamodeld in Sources */,
+				A518A4FF2004B76700EFBF5B /* ViewController.m in Sources */,
+				A518A5372005A3E800EFBF5B /* selectView.m in Sources */,
+				A518A50D2004B76700EFBF5B /* main.m in Sources */,
+				A518A4FC2004B76700EFBF5B /* AppDelegate.m in Sources */,
+				A518A5312004BA5600EFBF5B /* SYselectSeatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A518A50E2004B76700EFBF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A518A5172004B76700EFBF5B /* selectSeatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A518A5192004B76700EFBF5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A518A5222004B76700EFBF5B /* selectSeatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A518A5142004B76700EFBF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A518A4F62004B76700EFBF5B /* selectSeat */;
+			targetProxy = A518A5132004B76700EFBF5B /* PBXContainerItemProxy */;
+		};
+		A518A51F2004B76700EFBF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A518A4F62004B76700EFBF5B /* selectSeat */;
+			targetProxy = A518A51E2004B76700EFBF5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A518A5002004B76700EFBF5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A518A5012004B76700EFBF5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A518A5082004B76700EFBF5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A518A5092004B76700EFBF5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A518A5242004B76700EFBF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A518A5252004B76700EFBF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A518A5272004B76700EFBF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 773Z3KSBGR;
+				INFOPLIST_FILE = selectSeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1605.selectSeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A518A5282004B76700EFBF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 773Z3KSBGR;
+				INFOPLIST_FILE = selectSeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1605.selectSeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A518A52A2004B76700EFBF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFS2M8N82N;
+				INFOPLIST_FILE = selectSeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1605.selectSeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selectSeat.app/selectSeat";
+			};
+			name = Debug;
+		};
+		A518A52B2004B76700EFBF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFS2M8N82N;
+				INFOPLIST_FILE = selectSeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1605.selectSeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selectSeat.app/selectSeat";
+			};
+			name = Release;
+		};
+		A518A52D2004B76700EFBF5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFS2M8N82N;
+				INFOPLIST_FILE = selectSeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1605.selectSeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = selectSeat;
+			};
+			name = Debug;
+		};
+		A518A52E2004B76700EFBF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFS2M8N82N;
+				INFOPLIST_FILE = selectSeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1605.selectSeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = selectSeat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A518A4F22004B76700EFBF5B /* Build configuration list for PBXProject "selectSeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A518A5242004B76700EFBF5B /* Debug */,
+				A518A5252004B76700EFBF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A518A5262004B76700EFBF5B /* Build configuration list for PBXNativeTarget "selectSeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A518A5272004B76700EFBF5B /* Debug */,
+				A518A5282004B76700EFBF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A518A5292004B76700EFBF5B /* Build configuration list for PBXNativeTarget "selectSeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A518A52A2004B76700EFBF5B /* Debug */,
+				A518A52B2004B76700EFBF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A518A52C2004B76700EFBF5B /* Build configuration list for PBXNativeTarget "selectSeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A518A52D2004B76700EFBF5B /* Debug */,
+				A518A52E2004B76700EFBF5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A518A5032004B76700EFBF5B /* selectSeat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A518A5042004B76700EFBF5B /* selectSeat.xcdatamodel */,
+			);
+			currentVersion = A518A5042004B76700EFBF5B /* selectSeat.xcdatamodel */;
+			path = selectSeat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A518A4EF2004B76700EFBF5B /* Project object */;
+}
